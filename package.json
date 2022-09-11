@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "engines": {
     "node": "16.15.1",
-    "npm": "8.180"
+    "npm": "8.18.0"
   },
   "description": "Streaming Media Assignment",
   "main": "index.js",
