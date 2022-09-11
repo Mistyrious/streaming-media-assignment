@@ -1,0 +1,30 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.15.1",
+    "npm": "8.180"
+  },
+  "description": "Streaming Media Assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mistyrious/streaming-media-assignment.git"
+  },
+  "author": "Claudia Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mistyrious/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/Mistyrious/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
